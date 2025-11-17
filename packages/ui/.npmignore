@@ -1,0 +1,29 @@
+# Source files
+src/**/*.stories.tsx
+src/**/*.test.tsx
+src/**/*.test.ts
+
+# Development files
+.storybook
+*.config.js
+*.config.ts
+tsconfig*.json
+postcss.config.js
+tailwind.config.js
+components.json
+
+# Build artifacts
+dist/cjs
+*.tsbuildinfo
+
+# Dependencies
+node_modules
+
+# IDE
+.vscode
+.idea
+
+# Misc
+.DS_Store
+*.log
+

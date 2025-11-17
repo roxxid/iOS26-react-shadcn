@@ -1,0 +1,31 @@
+{
+  "name": "ios26-react-shadcn",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A React component library that replicates iOS 26 design language using shadcn components and Tailwind CSS",
+  "author": "Nishant Koli",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter storybook dev",
+    "build": "pnpm --filter ui build",
+    "build:storybook": "pnpm --filter storybook build",
+    "test": "pnpm --recursive test",
+    "lint": "pnpm --recursive lint",
+    "typecheck": "pnpm --recursive typecheck",
+    "clean": "pnpm --recursive clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.15.0"
+}
+
